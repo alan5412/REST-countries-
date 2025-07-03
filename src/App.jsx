@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/REST-countries-/" >
     <Header/>
       <Routes>
         <Route path="/" element={<Home/>} />
